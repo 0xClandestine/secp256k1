@@ -18,4 +18,4 @@ print(Signer(private_key).sign_hash(message_hash, print_qr=False))
 
 # disclaimer
 
-**NOTE:** *This code has not been formally audited, and as such it is not garunteed to be secure/bug-free.*
+**NOTE:** *This code has not been formally audited, and as such it is not guaranteed to be secure/bug-free.*
