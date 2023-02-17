@@ -5,6 +5,7 @@ import json
 import random
 import subprocess
 
+# taken from solady
 MALLEABILITY_THRESHOLD = 0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0
 
 class Signer:
