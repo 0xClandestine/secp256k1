@@ -1,6 +1,8 @@
 # secp256k1
 Minimal secp256k1 implementation, in python, that leverages built-in/native packages.
 
+WORK IN PROGRESS
+
 # example
 
 ```py
@@ -18,6 +20,4 @@ print(Signer(private_key).sign_hash(message_hash, print_qr=False))
 
 # disclaimer
 
-WORK IN PROGRESS
-
-**NOTE:** *This code has not been formally audited, and as such, it is not guaranteed to be secure/bug-free.*
+*The code provided in this project has not undergone a formal audit or review process. It is provided "as is" without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. The user of this code assumes all responsibility and risk for its use, and the author(s) of this code shall not be held liable for any damages or losses resulting from the use of this code. It is recommended that any user of this code perform their own review and testing before using it in a production environment.*
