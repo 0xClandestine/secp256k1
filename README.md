@@ -8,10 +8,8 @@ WORK IN PROGRESS
 ```py
 from secp256k1 import Signer
 
-# test private key
 private_key = <YOUR_PRIVATE_KEY>
 
-# test eip712 message hash
 message_hash = <MESSAGE_HASH_TO_SIGN>
 
 print(Signer(private_key).sign_hash(message_hash, print_qr=False))
